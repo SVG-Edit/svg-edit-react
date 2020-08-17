@@ -1,6 +1,6 @@
 # SVG-Edit-react
 
-The user interface of SVG-edit is based on vanilla javascript and the jQuery library. This editor is a demonstration of the usage of the SVG-edit "svgcanvas" with a React User Interface. It's far from being as complete as the original SVG-edit but this is a proof of concept that we may decided to use for a future version of SVGedit.
+The user interface of SVG-edit is based on vanilla javascript and the jQuery library. This editor is a demonstration of the usage of the SVG-edit "svgcanvas" with a React User Interface. It's far from being as complete as the original SVG-edit but this is a proof of concept that we may decide to use for a future version of SVGedit.
 
 To test this, you have to clone and run:
 ````
