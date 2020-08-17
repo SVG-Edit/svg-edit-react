@@ -1,0 +1,54 @@
+@import './variables.less';
+
+.OIe-editor {
+  font-size: 8pt;
+  font-family: Verdana, Helvetica, Arial;
+  color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+}
+
+.workarea {
+  position: relative;
+  top: 95px;
+  left: 50px;
+  height: 100%;
+  background-color: #A0A0A0;
+  border: 1px solid #808080;
+  overflow: auto;
+  text-align: center;
+}
+
+.svgcanvas {
+  line-height: normal;
+  text-align: center;
+  vertical-align: middle;
+  width: 1920px; // depends on multi (3)
+  height: 1440px;
+  position: relative;
+  top: 0;
+  left: 0;
+  /*
+    A subtle gradient effect in the canvas.
+    Just experimenting - not sure if this is worth it.
+  */
+  background: -moz-radial-gradient(45deg, #bbb, #222);
+  background: -webkit-gradient(radial, center center, 3, center center, 1000, from(#bbb), to(#222));
+}
+
+#svgroot {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#canvasBackground > rect {
+  fill: #fff !important;
+}
+
+*:focus {
+  outline: none;
+}

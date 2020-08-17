@@ -1,0 +1,56 @@
+@import '../../../variables.less';
+
+.OIe-attributes-tools {
+  position: absolute;
+  left: 300px;
+  display: inline-flex;
+  flex-flow: row wrap;
+  justify-content: flex-start; // start on primary axis  (row)
+  align-items: center; // center sur secondary axis (col)
+  background-color: @backgroundColor;
+  width: 600px;
+  font-size: 10px;
+  &>label {
+    margin-left: 2px;
+  }
+  & [name='tagName'] {
+    width: 40px;
+    height: 9px;
+    font-size: 10px;
+  }
+  & [name='id'] {
+    width: 80px;
+    height: 9px;
+    font-size: 10px;
+  }
+  & [name='x'],
+  & [name='y'],
+  & [name='cx'],
+  & [name='cy'],
+  & [name='rx'],
+  & [name='ry'],
+  & [name='r'],
+  & [name='width'],
+  & [name='height'],
+  & [name='stroke'],
+  & [name='stroke-width'] {
+    width: 35px;
+    height: 9px;
+    font-size: 10px;
+  }
+  & [name='font-size'] {
+    width: 40px;
+    height: 9px;
+    font-size: 10px;
+  }
+  & [name='font-family'] {
+    width: 90px;
+    height: 16px;
+    font-size: 10px;
+  }
+  & [name='d'] {
+    width: 120px;
+    height: 9px;
+    font-size: 10px;
+  }
+}

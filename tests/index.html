@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="Cache-Control"
+      content="no-cache, no-store, must-revalidate"
+    />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>SVG-Edit.react sample HTML</title>
+    <script src="./editor.js"></script>
+    <link rel="stylesheet" href="editor.css" />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  </head>
+
+  <body>
+    <h3>SVG-Edit.react sample HTML</h3>
+    <div id="editcontainer"></div>
+    <script>
+      const element = document.getElementById("editcontainer")
+      // this function is called when the user save his work.
+      function logSvg(content) {
+        console.log(content)
+      }
+      const editor = new Editor(element)
+      // define a save Handler (only log to the console for this sample)
+      editor.configure( 'saveHandler', logSvg )
+      // load a SVG in the editor
+      const svgContent = fetch("./arbelos.svg")
+        .then(response => response.text())
+        .then(svgContent => editor.load(svgContent))
+    </script>
+  </body>
+</html>

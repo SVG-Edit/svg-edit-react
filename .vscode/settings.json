@@ -1,0 +1,8 @@
+{
+  "prettier.semi": false,
+  "editor.renderWhitespace": "boundary",
+  "eslint.alwaysShowStatus": true,
+  "merge-conflict.autoNavigateNextConflict.enabled": true,
+  "prettier.useEditorConfig": false,
+  "prettier.singleQuote": true
+}

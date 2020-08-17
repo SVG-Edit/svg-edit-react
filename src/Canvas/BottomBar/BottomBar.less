@@ -1,0 +1,40 @@
+@import '../../variables.less';
+
+.bottom-bar {
+  position: fixed;
+  display: flex;
+  border-right: none;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 35px;
+  padding-left: 50px;
+  z-index: 1;
+  background-color: @backgroundColor;
+  font-size: 0.5em;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bottom-bar .OIe-mode {
+  display: inline;
+}
+
+.bottom-bar select {
+  font-size: 1em;
+}
+
+.bottom-bar .OIe-context {
+  display: inline;
+}
+
+.bottom-bar .OIe-layer {
+  display: inline;
+}
+
+.bottom-bar .OIe-zoom {
+  position: relative;
+  width: 16px;
+  left: -1px;
+  top: 5px;
+}
