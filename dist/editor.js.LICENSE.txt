@@ -1,0 +1,110 @@
+/*
+object-assign
+(c) Sindre Sorhus
+@license MIT
+*/
+
+/*!
+ * jQuery UI 1.8.17
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI
+ */
+
+/*!
+ * jQuery UI Mouse 1.8.17
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Mouse
+ *
+ * Depends:
+ *	jquery.ui.widget.js
+ */
+
+/*!
+ * jQuery UI Widget 1.8.17
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ *
+ * http://docs.jquery.com/UI/Widget
+ */
+
+/*! jQuery v1.7.1 jquery.com | jquery.org/license */
+
+/**
+ * A jQuery module to work with SVG attributes.
+ * @module jQueryAttr
+ * @license MIT
+ */
+
+/**
+ * Adapted from {@link https://github.com/uupaa/dynamic-import-polyfill/blob/master/importModule.js}.
+ * @module importModule
+ * @license MIT
+ */
+
+/**
+ * HistoryRecordingService component of history.
+ * @module history
+ * @license MIT
+ * @copyright 2016 Flint O'Brien
+ */
+
+/**
+ * Namespaces or tools therefor.
+ * @module namespaces
+ * @license MIT
+*/
+
+/**
+ * Numerous tools for working with the editor's "canvas".
+ * @module svgcanvas
+ *
+ * @license MIT
+ *
+ * @copyright 2010 Alexis Deveria, 2010 Pavol Rusnak, 2010 Jeff Schiller
+ *
+ */
+
+/**
+ * Path functionality.
+ * @module path
+ * @license MIT
+ *
+ * @copyright 2011 Alexis Deveria, 2011 Jeff Schiller
+ */
+
+/** @license React v0.20.2
+ * scheduler.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react-dom.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+/** @license React v17.0.2
+ * react.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */

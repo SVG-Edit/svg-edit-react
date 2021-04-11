@@ -19,17 +19,16 @@ const config = {
     rules: [
       {
         test: /^(?!.*?\.module).*\.scss$/,
-        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+        use: ['css-loader', 'sass-loader'],
       },
       {
-        test: /\.less$/,
+        test: /\.less$/i,
         use: [
-          'style-loader',
-          MiniCssExtractPlugin.loader,
-          'css-loader',
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
           {
             loader: 'less-loader',
-            options: { lessOptions: { javascriptEnabled: true } },
+            options: { lessOptions: { strictMath: true } },
           },
         ],
       },
