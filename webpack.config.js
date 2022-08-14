@@ -39,7 +39,7 @@ const config = {
       },
       {
         test: /\.svg$/,
-        loader: 'svg-inline-loader',
+        loader: 'svg-url-loader',
       },
       {
         test: /\.(png|jpg|gif)$/i,
