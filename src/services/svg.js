@@ -5,6 +5,7 @@
 */
 
 const saveOIAttr = (svgContent) => {
+  // eslint-disable-next-line prefer-regex-literals
   const result = svgContent.match(new RegExp('oi:animations="(.*?)"')) ?? {}
   return result['0'] ?? ''
 }

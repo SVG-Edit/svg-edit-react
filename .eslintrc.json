@@ -1,5 +1,5 @@
 { 
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
   "parserOptions": {
     "ecmaVersion": 2020,
     "sourceType": "module",
@@ -29,6 +29,7 @@
         "argsIgnorePattern": "^_"
       }
     ],
+    "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
     "no-unused-expressions": [
       "error",
       { "allowShortCircuit": true, "allowTernary": false }
