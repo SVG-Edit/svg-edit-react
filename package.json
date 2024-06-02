@@ -4,7 +4,7 @@
   "description": "Sample React Editor based on SVGEDit",
   "main": "dist/editor.js",
   "scripts": {
-    "start": "python -m SimpleHTTPServer",
+    "start": "python -m http.server",
     "build": "npx webpack --mode production",
     "build-dev": "npx webpack --mode development --watch",
     "build-doc": "./node_modules/.bin/esdoc .esdoc.json",
