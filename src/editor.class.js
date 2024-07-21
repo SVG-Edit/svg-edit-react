@@ -3,7 +3,7 @@ Optimistik
 SVG-Edit-react
 */
 import React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import Canvas from './Canvas/Canvas.jsx'
 
 const VERSION = require('../package.json').version
@@ -21,6 +21,7 @@ class Editor {
   constructor(div) {
     /** @private the div that holds the whole thing */
     this.div = div
+    this.root = ReactDOM.createRoot(this.div)
     this.config = {
       debug: true,
       i18n: 'fr',
@@ -47,7 +48,7 @@ class Editor {
 
   onClose = () => {
     this.logDebugData('onClose', this.config.onCloseHandler !== null)
-    ReactDOM.unmountComponentAtNode(this.div)
+    this.root.unmount()
     if (this.config.onCloseHandler !== null) {
       this.config.onCloseHandler()
     }
@@ -70,7 +71,7 @@ class Editor {
     this.logDebugData('load', svgContent?.length)
     try {
       // add the React based editor in the panel div
-      ReactDOM.render(
+      this.root.render(
         React.createElement(
           Canvas,
           {
@@ -82,7 +83,6 @@ class Editor {
           },
           null,
         ),
-        this.div,
       )
     } catch (err) {
       console.error('could not load the SVG content', err)

@@ -1,7 +1,7 @@
 {
   "name": "@svg-edit/svgedit-react",
   "version": "0.1.0",
-  "description": "Sample React Editor based on SVGEDit",
+  "description": "Sample React Editor based on SVGEdit",
   "main": "dist/editor.js",
   "scripts": {
     "start": "python -m http.server",
@@ -23,12 +23,12 @@
   "author": "OptimistikSAS",
   "license": "MIT",
   "dependencies": {
-    "@svgedit/svgcanvas": "^7.1.6",
+    "@svgedit/svgcanvas": "^7.2.2",
     "color-string": "^1.9.1",
     "prop-types": "^15.8.1",
-    "react": "^17",
+    "react": "^18.3.1",
     "react-color": "^2.19.3",
-    "react-dom": "^17",
+    "react-dom": "^18.3.1",
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
